@@ -5,6 +5,7 @@ This repository contains the code developed for the Master's thesis:
 
 
 📌 Project Overview
+
 This project focuses on the design, development, control, and experimental validation of a wearable robotic knee exoskeleton.
 The system is designed to:
 - assist human motion during lower-limb tasks  
@@ -14,6 +15,7 @@ The validation is performed by comparing onboard measurements with an OptiTrack 
 
 
 ⚙️ System Description
+
 The exoskeleton is a single-DOF wearable device with:
 - polycentric knee joint (to approximate human biomechanics)
 - integrated actuation system
@@ -21,23 +23,27 @@ The exoskeleton is a single-DOF wearable device with:
 - torque-based assistive control
 
  🟦 Mechanical System
+ 
 - Polycentric joint mechanism (four-bar inspired)
 - Integrated actuation module
 - Capstan-based transmission + gear stage
 - Lightweight hybrid structure (3D printed + aluminum)
   
 ⚡ Actuation
+
 - Brushless motor
 - Transmission:
   - Capstan drive (high ratio, low backlash)
   - Additional gear reduction
 
 📡 Sensing System
+
 - AS5600 magnetic encoder → joint angle
 - MPU6050 IMU → limb motion
 - Hall sensor + springs → interaction torque estimation
 
 🧠 Control Strategy
+
 - Torque-based assistive control  
 - No predefined trajectories  
 - Assistance adapts to user motion  
